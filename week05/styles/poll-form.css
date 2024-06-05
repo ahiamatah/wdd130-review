@@ -1,0 +1,82 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+    background-color: rgb(57, 93, 192);
+    color: white;
+    padding: 2rem;
+    text-align: center;
+}
+
+main {
+    /* border: red 2px solid; */
+}
+
+form {
+    width: 400px;
+    border: solid rgb(212, 212, 212) 2px;
+    margin: 5rem auto;
+    padding: 1.5rem;
+    background-color: rgb(220, 219, 219);
+    border-radius: 0.5rem;
+}
+
+legend {
+    color: rgb(57, 93, 192);
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+    margin-left: 5px;
+}
+.contact{
+    margin-bottom: 1rem;
+}
+
+.fullname, .email {
+    text-align: right;
+    padding: 0.5rem;
+}
+
+.questions {
+    
+}
+
+.browser, .pet, .places {
+    text-align: center;
+    padding: 0.5rem;
+}
+
+textarea {
+    margin-top: 0.5rem;
+    width: 100%;
+}
+
+.button {
+    text-align: center;
+    padding: 1rem;
+}
+
+button {
+    background-color: rgb(80, 94, 170);
+    color: white;
+    padding: 0.5rem;
+    border-radius: 0.3rem;
+    border: 0px;
+}
+
+footer {
+    border-top: 2px solid rgb(57, 93, 192);
+}
+footer p {
+    margin-top: 1rem;
+    text-align: center;
+}

@@ -87,7 +87,7 @@ header {
 }
 nav {
     display: flex;
-    justify-content: space-around
+    justify-content: space-around;
 }
 
 nav a {
@@ -188,6 +188,10 @@ nav a:hover {
     grid-column: 18/21;
     grid-row: 2/3;
     text-align: center;
+}
+
+.adventure-container img:hover {
+    scale: 1.2;
 }
 
 /* Footer */
