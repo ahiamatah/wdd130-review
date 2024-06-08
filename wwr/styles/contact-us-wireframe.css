@@ -69,6 +69,10 @@ main {
     padding: 0;
 }
 
+.image-container img:hover {
+    scale: 1.2;
+}
+
 /* Footer */
 .footer-container {
     grid-column: 2/4;
