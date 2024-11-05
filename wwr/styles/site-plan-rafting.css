@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+:root {
+    --primary-color: #FAFAFA;
+    --secondary-color: #1F6299;
+    --accent-color: #B9660A;
+    --additional-accent-color: #000000;
+    --heading-font: 'Roboto', sans-serif;
+    --paragraph-font: 'Montserrat', sans-serif;
+    --navigation-background-color: #B9660A;
+    --navigation-link-color: #000000;
+    --navigation-hover-link-color: #FAFAFA;
+    --navigation-hover-background-color: #1F6299;
+}
+
+body {
+    font-family: var(--paragraph-font);
+    max-width: 1020px;
+    padding: 20px;
+    border: #979494 solid 2px;
+    margin: 20px auto;
+}
+
+
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    color: var(--navigation-link-color);
+}   
+
+header {
+    padding: 20px;
+    background-color: var(--accent-color);
+}
+
+p {
+    padding: 25px;
+}
+
+nav {
+    background-color: var(--navigation-background-color);
+    font-size: 1.2rem;
+    display: flex;
+}
+
+nav a {
+    display: block;
+    color: var(--navigation-hover-link-color);
+    text-decoration: none;
+    padding: 1rem;
+}
+
+nav a:link, nav a:visited {
+    color: var(--navigation-link-color);
+}
+
+nav a:hover {
+    color: var(--navigation-hover-link-color);
+    background-color: var(--navigation-hover-background-color);
+}
